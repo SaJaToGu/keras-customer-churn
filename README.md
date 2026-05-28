@@ -4,6 +4,12 @@ This repository contains a Shiny application that demonstrates the use of the cu
 
 <a href="https://jjallaire.shinyapps.io/keras-customer-churn/"><img src="images/customer_churn.png" width=800/></a>
 
+### Maintenance Status
+
+This repository is kept as a historical example of a Shiny application backed by
+a Keras customer churn model. It has not been actively maintained since 2019, so
+dependencies and deployment instructions may need updates before production use.
+
 ### Using the Application
 
 The application is deployed online at <https://jjallaire.shinyapps.io/keras-customer-churn/>.
@@ -31,6 +37,5 @@ Use the `customer_churn.R` script to train the model used by the application fro
 ```{r}
 source("customer_churn.R")
 ```
-
 
 
